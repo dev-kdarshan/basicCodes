@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    /* background-color: rgb(113, 113, 138); */
+    background-image: url(colorimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    width: 40%;
+    height: 30%;
+    background-color: rgba(63, 54, 54, 0.5);
+    color: wheat;
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+}
+.button{
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    
+}
+.colorcode{
+    padding: 5px;
+    background: transparent;
+    outline: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #f5deb3;
+    width: 70%;
+    position:relative;
+    top: 8%;
+    left: 2%;
+}
+#info{
+    margin-top: 30px;
+    position: relative;
+    left: 20%;    
+}
+.random{
+    position: absolute;
+    top: 51%;
+    left: 30%;
+    padding: 5px;
+    border: none;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    cursor: pointer;
+    height: 35px;
+    width: 40%;
+}
+#default{    
+    position: absolute;
+    top: 150px;
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 255 , 0.3);
+    backdrop-filter: blur(10px);
+    width: 18%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* @media (max-width: 450px) {  
+  
+    .container{
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;   
+}  
+.random{
+    position: absolute;
+    top: 56%;
+    left: 32%;     
+}
+}
+
+@media (max-width: 800px) {  
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    width: 40%;   
+} 
+.random{
+    position: absolute;
+    top: 56%;
+    left: 41%; 
+}  
+} */
+
+/* @media (max-width: 1024px) {  
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    width: 30%;   
+} 
+.random{
+    position: absolute;
+    top: 56%;
+    left: 43%; 
+}  
+}
+
+@media (max-width: 1480px) {  
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    width: 22%;   
+} 
+.random{
+    position: absolute;
+    top: 56%;
+    left: 45%; 
+}  
+}
+@media (max-width: 2560px) {  
+.container{
+    border: 2px solid black;
+    padding: 10px;
+    width: 12%;   
+    height: 100px;
+} 
+.random{
+    position: absolute;
+    top: 57%;
+    left: 47%; 
+}  
+} */

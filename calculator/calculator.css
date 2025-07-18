@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+div input{
+    border: none;
+    box-shadow: -8px -8px 15px rgba(66, 92, 108, 0.1),5px 5px 15px rgba(0,0,0,0.2);
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+div i{
+    color: white;
+    position: absolute;
+    top: 35.5%;
+    left: 46.5%;
+    width: 30px;
+   
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+.display input{
+    text-align: right ;
+    flex: 1;
+    font-size: 35px;
+    width: 100px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.equal{
+    width: 146px;
+    background-color: #84a461;
+    color: black;
+}
+.ac, .del{
+    color: rgb(252, 77, 77);
+}
+@media screen and (max-width: 435px) {
+    .title{
+        height: fit-content;
+        position: absolute;
+        left: 25.5%;
+        color: wheat;
+    }
+.container{
+    display: block;
+}
+.box{
+   height: 100vh;
+   width: 100%; 
+}
+.display{
+   margin-top: 10%;
+   margin-bottom: 5%;
+}
+.display input{
+    height: 20vh;
+    font-size: 100px;
+}  
+div input{
+    height: 80px;
+    width: 74.2px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+div i{
+    top: 37.7%;
+    left: 35.8%;
+}
+.equal{
+    width: 172px;
+}
+}

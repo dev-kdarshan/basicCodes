@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-color</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <div class="wrapper" id="wrapper"> <h1 id="default"> "let's Go!!" </h1>
+        <div class="container">
+            <input class="colorcode" id="colorcode" type="text" placeholder="enter color code" value="" onkeydown="change()">
+            <input class="button" id="button" type="button" value="changecolor" onclick="change()">
+            <p id="info">"entered color name will be shown here"</p>
+        </div>
+        <div class="random">
+            <input class="random" id="random" type="button" value="random color change" onclick="random()">
+            
+        </div>
+        
+    </div>
+
+<script src="color.js"></script>
+</body>
+</html>
